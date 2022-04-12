@@ -1,0 +1,45 @@
+.header {
+    display: block;
+    width: 550px;
+    height: 260px;
+    background-image: linear-gradient(to right, #ED4880, #F38B17);
+}
+
+#unit, #unitNum {
+    padding-top: 35px;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32;
+    line-height: 38px;
+    text-align: center;
+}
+
+#unitNum {
+    font-size: 80;
+}
+
+.main {
+   display: block; 
+   width: 550px;
+   height: 260px;
+   
+}
+
+#length, #volume, #mass {
+    display: block;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    /* padding-bottom: 22px; */
+}
+
+#lengthNum, #volumeNum, #massNum {
+    display: block;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
