@@ -7,28 +7,33 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <section class="header">
-            <h2 id="unit">Metric/Imperial unit conversion</h2>
-            <div id="unitNum">20</div>
-        </section>
-    </header>
-    <main>
-        <section class="main">
-            <div class="length_format">
-                <h3 id="length">Length(Meter/Feet)</h3><!--may not need this class-->
-                <p id="lengthNum"></p>
-            </div>
-            <div class="volume_format">
-                <h3 id="volume">Volume (Liters/Gallons)</h3>
-                <p id="volumeNum"></p>
-            </div>
-            <div class="mass_format">
-                <h3 id="mass">Mass (Kilograms/Pounds)</h3>
-                <p id="massNum"></p>
-            </div>
-        </section>
-    </main>
+    <inner-column>
+        <header>
+            <section class="header">
+                <h2 id="unit">Metric/Imperial unit conversion</h2>
+                <form >
+                    <input type="text" id="unitNum">
+                </form>
+                <button id="myButton" onclick="buttonPress()">convert</button>
+            </section>
+        </header>
+        <main>
+            <section class="main">
+                <div class="length_format">
+                    <h3 id="length">Length(Meter/Feet)</h3><!--may not need this class-->
+                    <p id="lengthNum"></p>
+                </div>
+                <div class="volume_format">
+                    <h3 id="volume">Volume (Liters/Gallons)</h3>
+                    <p id="volumeNum"></p>
+                </div>
+                <div class="mass_format">
+                    <h3 id="mass">Mass (Kilograms/Pounds)</h3>
+                    <p id="massNum"></p>
+                </div>
+            </section>
+        </main>
+    </inner-column>
 
     <script src="index.js"></script>
 </body>

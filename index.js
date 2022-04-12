@@ -1,12 +1,12 @@
-var unitEl = document.getElementById("unitNum")
+var unitEl = document.getElementById("unitNum").value
 var lengthEl = document.getElementById("lengthNum")
 var volumeEl = document.getElementById("volumeNum")
 var massEl = document.getElementById("massNum")
 
-
+var unit = 0
 
 function length() {
-    let unit= 20
+    // let unit= 0
     let foot = 0.3048
     let meter = 3.28082
     m2f =  unit * meter
@@ -16,7 +16,7 @@ function length() {
 }
 
 function volume() {
-    let unit = 20
+    // let unit = 0
     let liter = 0.264175
     let gallon = 3.7854
     l2g = liter * unit 
@@ -27,7 +27,7 @@ function volume() {
 }
 
 function mass() {
-    let unit = 20
+    // let unit = 0
     let kilo = 2.2046
     let pounds = 0.45359
     k2p = unit * kilo
@@ -35,12 +35,21 @@ function mass() {
     massEl.textContent = unit + " kilos = " + k2p.toFixed(3) + " pounds" + " | " + unit + " pounds = " + p2k.toFixed(3) + " kilos"
 }
 
+function buttonPress() {
+    unit = document.getElementById("unitNum").value
+    
+    
+    
+    length()
+    volume()
+    mass()
+}
+
+//     length()
+//     volume()
+//     mass()
 
 
+// var unitEl = document.getElementById("unitNum").value
 
 
-
-
-length()
-volume()
-mass()

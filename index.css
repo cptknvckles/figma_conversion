@@ -1,3 +1,12 @@
+inner-column {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 .header {
     display: block;
     width: 550px;
@@ -15,8 +24,22 @@
     text-align: center;
 }
 
-#unitNum {
-    font-size: 80;
+#unitNum{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    background-image: linear-gradient(to right, #ED4880, #F38B17);
+    color: #FFFFFF;
+}
+
+#myButton {
+   border-radius: 8px;
+   display: inline-block;
+   margin-left: 210px;
+   padding: 10px 10px;
+   font-size: 16px;
+   color:#FFFFFF;
+   background-color: #ED4880;
 }
 
 .main {
